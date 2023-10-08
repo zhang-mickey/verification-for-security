@@ -7,3 +7,9 @@
 <img width="352" alt="image" src="https://github.com/zhang-mickey/verification-for-security/assets/145342600/ef93f1c1-3628-42a1-a7c4-9edbafa422b0">
 <img width="345" alt="image" src="https://github.com/zhang-mickey/verification-for-security/assets/145342600/0d208dd0-8697-4dbf-b253-7ae63ef7b652">
 <img width="330" alt="image" src="https://github.com/zhang-mickey/verification-for-security/assets/145342600/550831ce-6459-4ad8-bc54-38e1a03f8b35">
+
+## Assume and Assert
+For Assume commands, the weakest precondition is the implication of the assumed condition and the current precondition. For Assert commands, the weakest precondition is the conjunction of the assertion and the current precondition.
+
+## Havoc
+For Havoc commands, a fresh variable is generated, and the weakest precondition substitutes the havoced variable with the fresh variable in the current precondition.
